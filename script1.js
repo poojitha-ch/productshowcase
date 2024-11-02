@@ -17,18 +17,7 @@ let scrollTween = gsap.to(sections, {
   }
 });
 
-console.log(1 / (sections.length - 1))
 
-//Progress bar animation
-
-gsap.to(mask, {
-  width: "100%",
-  scrollTrigger: {
-    trigger: ".wrapper",
-    start: "top left",
-    scrub: 1
-  }
-});
 
 // whizz around the sections
 sections.forEach((section) => {
@@ -54,9 +43,7 @@ sections.forEach((section) => {
     }
   });
 });
-// learn what all this code means at
-// https://www.creativecodingclub.com/bundles/creative-coding-club
-// unlock over 250 GSAP lessons today
+
 
 
 const details = gsap.utils.toArray(".desktopContentSection:not(:first-child)")
