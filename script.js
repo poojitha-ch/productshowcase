@@ -17,26 +17,7 @@ gsap.from('.first', {
     }
 });
 
-/*gsap.to('.first', {
-    x: '100%', // Move the image 100% to the right
-    scrollTrigger: {
-        trigger: '.first',
-        duration:13,
-        start: 'top top', // Start the animation when the top of the image is at the top of the viewport
-        end: 'bottom bottom', // End the animation when the bottom of the image is at the bottom of the viewport
-        scrub: 3, // Smooth scrolling effect
-        markers: true // Display markers for debugging (you can remove this in production)
-    }
-});*/
 
-/*gsap.utils.toArray('.slide').forEach((slide, index) => {
-    gsap.set(slide, { opacity: 0, y: 50 }); // Initial opacity and position
-    ScrollTrigger.create({
-        trigger: slide,
-        start: "top center",
-        onEnter: () => gsap.to(slide, { opacity: 1, y: 0, duration: 0.5 }),
-    });
-});*/
     // GSAP.fromTo animation
     window.onload = function () {
         // GSAP.fromTo animation
